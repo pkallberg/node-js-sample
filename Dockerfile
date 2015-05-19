@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs
+FROM node:onbuild
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
